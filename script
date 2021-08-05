@@ -1,0 +1,11 @@
+# GET
+alias k="kubectl"
+alias kg="kubectl get"
+alias kgp="kubectl get pod"
+alias kgd="kubectl get deployment"
+alias kgsv="kubectl get services"
+alias kgi="kubectl get ingress"
+
+# EDIT
+alias ked="kubectl edit deployment"
+
