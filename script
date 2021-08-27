@@ -1,11 +1,26 @@
+# Context
+alias kx="kubectx"
+
+# Namespace
+alias kns="kubens"
+
 # GET
 alias k="kubectl"
 alias kg="kubectl get"
 alias kgp="kubectl get pod"
 alias kgd="kubectl get deployment"
-alias kgsv="kubectl get services"
+alias kgs="kubectl get services"
 alias kgi="kubectl get ingress"
+alias kga="kubectl get all"
+alias kgsk="kubectl get secret"
+alias kgc="kubectl get configMap"
 
 # EDIT
 alias ked="kubectl edit deployment"
+alias kesk="kubectl edit secret"
+alias kec="kubectl edit configMap"
 
+# DESCRIBE
+alias kdd="kubectl describe deployment"
+alias kds="kubectl describe services"
+alias kdp="kubectl describe pod"
