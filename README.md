@@ -24,7 +24,7 @@ alias ked="kubectl edit deployment"
 
 Clone this repo and save it in your $HOME directory, then edit your .zshrc file with:
 
-`[ -f ~/kubernetes-alias/script ] && source ~/kubectl_aliases/script`
+`[ -f ~/kubernetes-alias/script ] && source ~/kubernetes-alias/script`
 
 ---
 
